@@ -1,0 +1,20 @@
+function main() {
+    window.alert("Ingresa el numero hasta el cual se generará la secuencia de Fibonacci:");
+    var numeroLimite;
+
+    numeroLimite = Number(window.prompt('Enter a value for numeroLimite'));
+    var a, b;
+
+    a = 0;
+    b = 1;
+    window.alert(a);
+    window.alert(b);
+    while (a + b <= numeroLimite) {
+        var siguienteNumero;
+
+        siguienteNumero = a + b;
+        window.alert(siguienteNumero);
+        a = b;
+        b = siguienteNumero;
+    }
+}
