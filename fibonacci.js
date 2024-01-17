@@ -3,7 +3,7 @@ function serieFibonacci(n) {
 
     for (var i = 0; i < n; i++) {
         if (i <= 1) {
-            serieFibonacci.push(i);
+            fibonacciLista.push(i);
         } else {
             fibonacciLista.push(fibonacciLista[i - 1] + fibonacciLista[i - 2]);
         }
