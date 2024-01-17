@@ -21,4 +21,6 @@ console.log(resultado.join(", "));
 } else {
 console.log("Por favor, ingrese un número válido y mayor que 0.");
 }
+let mensajeDom = document.getElementById("mensajeDom");
+mensajeDom.innerHTML = "Serie de Fibonacci para los primeros " + numero + " números:" + serieFibonacci(numero);
 
